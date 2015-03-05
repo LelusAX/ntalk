@@ -1,0 +1,21 @@
+{
+  "name": "ntalk",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "http://v8.googlecode.com/svn/trunk/"
+  },
+  "description": "App para consolidar conhecimento sobre node - Agenda de Contatos",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "cookie-parser": "~1.3.3",
+    "ejs": "~2.2.3",
+    "express": "~4.11.1",
+    "express-load": "^1.1.14",
+    "express-session": "^1.10.3",
+    "method-override": "^2.3.1",
+    "socket.io": "^1.3.5"
+  }
+}
