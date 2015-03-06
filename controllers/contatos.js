@@ -8,6 +8,8 @@ module.exports = function(app) {
 			res.render('contatos/index', params);
 		},
 		create: function(req, res) {
+			console.log('Passou aki');
+
 			var contato = req.body.contato
 			, usuario = req.session.usuario;
 			usuario.contatos.push(contato);
